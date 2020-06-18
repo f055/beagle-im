@@ -1,35 +1,22 @@
-<p align="center">
-  <a href="https://beagle.im/">
-    <img
-      alt="Beagle IM"
-      src="https://beagle.im/img/services/darkOrLight.png"
-      width="400"
-    />
-  </a>
-</p>
+This is a fork repo of BeagleIM by [Tigase](https://tigase.net). The purpose of this fork is to apply unofficial visual improvements to BeagleIM.
 
-<p align="center">
-  XMPP client for macOS <img src="https://github.com/tigaseinc/website-assets/blob/master/tigase/images/tigase-logo.png?raw=true" width="25px"/>
-</p>
+# What is BeagleIM
 
-<p align="center">
-  <a href="https://itunes.apple.com/us/app/beagleim-by-tigase-inc/id1445349494?l=pl&ls=1&mt=12">
-    <img
-      alt="Beagle IM"
-      src="https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/macappstore-lrg.svg"
-    />
-  </a>
-</p>
-
-# What it is
-
-XMPP client for macOS based on [TigaseSwift XMPP library](https://github.com/tigaseinc/tigase-swift).
+BeagleIM is an XMPP client for macOS based on [TigaseSwift XMPP library](https://github.com/tigaseinc/tigase-swift).
 
 # Features
 
-BeagleIM is powerful XMPP client with support for file transfer, VoIP and end-to-end encryption.
+[BeagleIM](https://beagle.im/) is powerful XMPP client with support for file transfer, VoIP and end-to-end encryption.
 
-To learn more about the XMPP client features visit https://beagle.im.
+# How to build
+
+1. Clone this repo
+2. Clone this [OpenSSL repo](https://github.com/krzyzanowskim/openssl)
+3. Open `/beagle-im/BeagleIM.xcodeproj` with Xcode
+4. View *Targets > Signing & Capabilities* and update your *Team* in *Signing* section
+5. Select *File > Add Files to "BeagleIM"* and select `/openssl/OpenSSL.xcodeproj`
+6. Select *File > Swift Packages > Update to Latest Package Versions*
+7. Select *Product > Build*
 
 # Support
 
