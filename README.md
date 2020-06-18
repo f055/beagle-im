@@ -10,7 +10,7 @@ BeagleIM is an XMPP client for macOS based on [TigaseSwift XMPP library](https:/
 
 # How to build
 
-1. Clone this repo
+1. Clone this repo and swith to `mix-new_chatslist` branch
 2. Clone this [OpenSSL repo](https://github.com/krzyzanowskim/openssl)
 3. Open `/beagle-im/BeagleIM.xcodeproj` with Xcode
 4. View *Targets > Signing & Capabilities* and update your *Team* in *Signing* section
