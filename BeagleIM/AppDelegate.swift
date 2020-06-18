@@ -428,7 +428,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDele
         if let statusItem = self.statusItem {
             let connected = XmppService.instance.currentStatus.show != nil;
             let hasUnread = DBChatStore.instance.unreadMessagesCount > 0;
-            let statusItemImage = NSImage(named: hasUnread ? NSImage.applicationIconName : (connected ? "MenuBarOnline" : "MenuBarOffline"));
+            let statusItemImage = NSImage(named: hasUnread ? "MenuBarPing" : (connected ? "MenuBarOnline" : "MenuBarOffline"));
             statusItemImage?.resizingMode = .tile;
             let size = min(statusItem.button!.frame.height, statusItem.button!.frame.height);
             statusItemImage?.size = NSSize(width: size, height: size);
