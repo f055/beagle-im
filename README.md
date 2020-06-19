@@ -1,5 +1,5 @@
 
-<h1 style="text-align: center;">
+<h1 align="center">
   <img alt="Beagle Icon" src="https://raw.githubusercontent.com/f055/beagle-im/mix-new_chatslist/BeagleIM/Assets.xcassets/AppIcon.appiconset/IMG_0720_512.png" width="256" />
   <br />
   BeagleIM
