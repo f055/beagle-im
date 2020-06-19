@@ -1,8 +1,8 @@
 
 <p align="center">
   <img alt="Beagle Icon" src="https://raw.githubusercontent.com/f055/beagle-im/mix-new_chatslist/BeagleIM/Assets.xcassets/AppIcon.appiconset/IMG_0720_512.png" width="256" />
-  
-  <h1>BeagleIM</h1>
+  <br />
+  <b>BeagleIM</b>
 </p>
 
 This is a fork repo of BeagleIM by [Tigase](https://tigase.net). The purpose of this fork is to apply unofficial visual improvements to BeagleIM. Changes so far:
