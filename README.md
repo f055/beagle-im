@@ -7,9 +7,9 @@
 
 This is a fork repo of BeagleIM by [Tigase](https://tigase.net). The purpose of this fork is to apply unofficial visual improvements to BeagleIM. Changes so far:
 
-[x] Application icon
-[ ] Status bar icon
-[x] Sidebar colors
+- [x] Application icon
+- [ ] Status bar icon
+- [x] Sidebar colors
 
 ## What is BeagleIM
 
